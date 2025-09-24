@@ -55,7 +55,7 @@ onMounted(() => {
         </video>
 
         <div class="testo-centrato">
-            <h1 class="hero-title">CIAO, SONO <span class="highlight">CRISTOF BANO</span>.</h1>
+            <h1 class="hero-title">CIAO, SONO CRISTOF BANO</h1>
             <p class="hero-description">Sono un <span ref="dynamicTextRef" class="dynamic-text"></span></p>
             <a href="#projects" class="hero-button">Scopri i miei progetti</a>
         </div>
@@ -66,8 +66,7 @@ onMounted(() => {
 
 <style scoped>
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cookie&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cedarville+Cursive&family=Cookie&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 :root {
     --bg-dark: #1a1a1a;
@@ -86,8 +85,9 @@ body {
     
 }
 
-/* Hero Section - il contenitore principale */
+
 .hero-section {
+    padding-top: 100px;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -127,19 +127,22 @@ body {
     position: relative;
     z-index: 2;
     padding: 0 1rem;
-    max-width: 800px;
+    max-width: 1200px;
     color: #000000;
-    font-family: 'anton', sans-serif;
-
-    
+    font-family: 'Anton', sans-serif;
 }
 
 /* FONT GRANDEZZA */
 .hero-title {
-    font-size: 70px;
-    font-weight: 700;
+    font-size: 80px;
+    font-weight: 400;
     margin-bottom: 1rem;
-    line-height: 1.2;
+    line-height: 1;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #0a0a0b;
+    white-space: nowrap;
+    opacity: 0.9;
 }
 
 .hero-title .highlight {

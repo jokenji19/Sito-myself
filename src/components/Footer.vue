@@ -23,9 +23,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="footer-column footer-social">
                     <h4>Seguimi</h4>
                     <div class="social-icons">
-                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/cristof-b-7b84aa170/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Kio89" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="footer-column footer-contact">
@@ -76,6 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
     flex: 1;
     min-width: 250px;
     
+    
 }
 
 .footer-column h4 {
@@ -112,6 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 .social-icons {
+    color: var(--text-color);
     display: flex;
     gap: 1rem;
 }
