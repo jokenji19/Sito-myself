@@ -35,22 +35,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <style scoped>
 :root {
-
-    
     --background-color: #ffffff;
     --text-color: #000000;
     --border-color: #eaeaea;
     --transition-speed: 0.3s ease-in-out;
 }
 
+
 .portfolio-header {
-    position: sticky;
+    background-color: #ffffff !important;
+    backdrop-filter: none;
+}
+
+.portfolio-header {
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    background-color: var(--background-color);
+    background-color: #ffffff;
     border-bottom: 1px solid var(--border-color);
     z-index: 1000;
     transition: background-color var(--transition-speed);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 1;
 }
 
 .header-container {
@@ -127,6 +135,8 @@ document.addEventListener('DOMContentLoaded', function () {
     transition: all var(--transition-speed);
     transform-origin: center;
 }
+
+
 
 /* Animazione dell'hamburger che diventa una 'X' */
 .menu-toggle.is-active .bar:nth-child(1) {
