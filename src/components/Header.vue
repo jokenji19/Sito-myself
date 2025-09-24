@@ -61,10 +61,10 @@ document.addEventListener('DOMContentLoaded', function () {
     justify-content: space-between;
     align-items: center;
 }
-
+/*. FONT PORTFOLIO */  
 .logo {
-    font-size: 1.25rem; 
-    font-weight: 600;
+    font-size:  50px; 
+    font-weight: 300;
     color: var(--text-color);
     text-decoration: none;
     letter-spacing: 10px;
@@ -84,10 +84,9 @@ document.addEventListener('DOMContentLoaded', function () {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding-bottom: 50px; /* Spazio per l'underline */
     transition: color var(--transition-speed);
 }
 
