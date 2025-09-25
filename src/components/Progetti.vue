@@ -1,5 +1,5 @@
 <script setup>
-// Qui puoi aggiungere la logica del componente
+
 </script>
 
 <template>
@@ -8,7 +8,7 @@
     <div class="progetti-grid">
       <div class="progetto">
         <h2>Progetto 1</h2>
-        <p>Descrizione del progetto 1</p>
+        <p>Progetto</p>
       </div>
       <div class="progetto">
         <h2>Progetto 2</h2>

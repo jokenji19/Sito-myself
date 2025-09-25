@@ -27,13 +27,13 @@ onMounted(() => {
 <template>
 <header class="portfolio-header">
     <div class="header-container">
-        <a href="#home" class="logo">PORTFOLIO</a>
+        <router-link to="/" class="logo">PORTFOLIO</router-link>
         <nav class="main-nav">
             <ul>
-                <li><a href="#about">Chi sono</a></li>
+                <li><router-link to="/ChiSono">Chi sono</router-link></li>
                 <li><router-link to="/progetti">Progetti</router-link></li>
-                <li><a href="#skills">Competenze</a></li>
-                <li><a href="#contact">Contatti</a></li>
+                <li><router-link to="/Competenze">Competenze</router-link></li>
+                <li><router-link to="/Contatti">Contatti</router-link></li>
             </ul>
         </nav>
         <div class="menu-toggle" id="mobile-menu">

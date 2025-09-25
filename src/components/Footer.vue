@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
             <div class="footer-bottom">
                 <p>&copy; <span id="current-year">2025</span> Cristof Bano. Tutti i diritti riservati.</p>
+                <p> Si accettano anche Bitcoin. </p>
             </div>
         </div>
     </footer>
@@ -64,6 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 .footer-container {
     max-width: 1200px;
+    font-size: 15px;
     margin: 0 auto;
 }
 
